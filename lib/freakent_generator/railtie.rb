@@ -1,3 +1,5 @@
+require "rails/generators/rails/scaffold/scaffold_generator"
+
 module FreakentGenerator
   class Railtie < ::Rails::Railtie
     config.app_generators do |g|
